@@ -1,0 +1,22 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./api/index.js",
+    "vercal build":"echo hello"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@vercel/node": "^5.1.14",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "serverless-http": "^3.2.0",
+    "uuid": "^11.1.0"
+  },
+  "type": "module"
+}
